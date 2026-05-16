@@ -8,11 +8,70 @@ tags:
   - Aerospace
   - Security
   - Manufacturing
-description: 'A British multinational defense, security, and aerospace company and one of the largest defense contractors globally. Produces military aircraft, naval vessels, munitions, and electronic warfare systems for governments worldwide.'
+description: >-
+  BAE Systems is a British multinational defense, security, and aerospace
+  company and one of the largest defense contractors globally. BAE Systems
+  does not publish public developer APIs; technology integration is delivered
+  through classified and ITAR-controlled customer programs, the Discover
+  supplier portal, defense-program-specific data exchanges (e.g. F-35 ALIS /
+  ODIN, Eurofighter), and FMS / government-to-government channels.
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
     url: https://www.baesystems.com/
+  - type: Suppliers
+    url: https://www.baesystems.com/en/our-company/suppliers
+  - type: Careers
+    url: https://www.baesystems.com/en/careers
+  - type: InvestorRelations
+    url: https://investors.baesystems.com/
+  - type: PrivacyPolicy
+    url: https://www.baesystems.com/en/privacy
+  - type: TermsOfService
+    url: https://www.baesystems.com/en/terms-and-conditions
+  - type: Contact
+    url: https://www.baesystems.com/en/contact-us
+  - type: Features
+    data:
+      - name: Defense Program Integration
+        description: Major platforms (Typhoon, F-35 partnership content, Astute, Type 26, Howitzers) integrate with sovereign customer logistics, mission, and training systems under government contracts.
+      - name: Supplier Portal (Discover)
+        description: BAE Systems' Discover portal is used by registered suppliers for purchase orders, receipts, invoicing, and quality data exchange.
+      - name: Cybersecurity Services
+        description: BAE Systems Digital Intelligence delivers managed cybersecurity, threat intelligence, financial crime (NetReveal), and intelligence-mission systems to government and regulated customers.
+      - name: Through-Life Support
+        description: Long-term support contracts (UK MoD, Australian DoD, US DoD) drive private data exchange for maintenance, configuration management, and obsolescence.
+      - name: Export-Controlled Releases
+        description: Technical data is governed by UK Export Control, EU dual-use, and US ITAR/EAR and is not released through public APIs.
+  - type: UseCases
+    data:
+      - name: Sovereign Defense Programs
+        description: Deliver and sustain combat aircraft, naval, land, munitions, and electronics platforms for sovereign customers.
+      - name: Supplier Onboarding and Quality
+        description: Tier-1 and tier-2 suppliers integrate into BAE Systems' supply chain via the Discover portal and program-specific data exchanges.
+      - name: Cyber and Intelligence Solutions
+        description: Government and regulated commercial customers consume BAE Systems Digital Intelligence offerings for threat detection, fraud analytics, and intelligence missions.
+      - name: Mission Training and Simulation
+        description: Aircrew, ship's crew, and land force training is delivered through immersive simulators and synthetic training environments.
+  - type: Compliance
+    data:
+      - name: ITAR
+        description: US defense articles and technical data are subject to the International Traffic in Arms Regulations.
+      - name: EAR
+        description: Dual-use exports are subject to the US Export Administration Regulations.
+      - name: UK Export Control Act 2002
+        description: UK-origin defense and dual-use exports are governed by the UK Export Control Act and the Strategic Export Controls lists.
+      - name: NIST SP 800-171 / CMMC
+        description: Defense Industrial Base programs require protection of Controlled Unclassified Information under NIST SP 800-171 and the US DoD Cybersecurity Maturity Model Certification.
+      - name: UK Bribery Act / FCPA
+        description: Anti-bribery and anti-corruption controls follow the UK Bribery Act and US Foreign Corrupt Practices Act.
+plansReconciled: false
+rateLimitsReconciled: false
+finopsReconciled: false
+position: Consuming
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
