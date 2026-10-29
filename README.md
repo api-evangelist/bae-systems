@@ -1,4 +1,4 @@
-# BAE Systems (bae-systems)
+# BAE Systems
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,21 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-BAE Systems is a British multinational defense, security, and aerospace company and one of the largest defense contractors globally. BAE Systems does not publish public developer APIs; integration is delivered through classified / ITAR-controlled customer programs, the Discover supplier portal, defense-program data exchanges, and FMS channels.
+BAE Systems is a British multinational defense, security, and aerospace company and one of the largest defense contractors globally. BAE Systems does not publish public developer APIs; technology integration is delivered through classified and ITAR-controlled customer programs, the Discover supplier portal, defense-program-specific data exchanges (e.g. F-35 ALIS / ODIN, Eurofighter), and FMS / government-to-government channels.
 
-**URL:** [https://www.baesystems.com/](https://www.baesystems.com/)
+**Areas:** Defense · Aerospace · Security · Manufacturing
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=bae-systems-api-evangelist&utm_content=repo)
+## BAE Systems on APIs.io
 
-## Tags
+Everything profiled for BAE Systems is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bae-systems/](https://apis.io/providers/bae-systems/)** — or go straight to one of the APIs or properties below.
 
-- Defense, Aerospace, Security, Manufacturing
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-No public developer APIs published. See `apis.yml` for documented features, use cases, and compliance scope captured in `common[]`.
+#### Security (1)
 
-## Timestamps
+Authentication, trust centre, and vulnerability disclosure.
 
-- **Created:** 2026-05-05
-- **Modified:** 2026-05-16
+- [Bae Systems Domain Security](https://apis.io/security/bae-systems/bae-systems-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.baesystems.com/)
+- [Blog](https://www.baesystems.com/en/newsroom)
+- [Terms of service](https://www.baesystems.com/en/terms-and-conditions)
+- [Privacy policy](https://www.baesystems.com/en/privacy)
+- [GitHub](https://github.com/baesystemsdigital)
+
+## API Evangelist rating
+
+**Kin Score 11.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 39.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bae-systems/](https://apis.io/providers/bae-systems/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BAE Systems: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bae-systems/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
